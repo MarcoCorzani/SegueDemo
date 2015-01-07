@@ -13,6 +13,7 @@
 		A91C7FE71A4F71A00055E57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91C7FE61A4F71A00055E57A /* Images.xcassets */; };
 		A91C7FEA1A4F71A00055E57A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91C7FE81A4F71A00055E57A /* LaunchScreen.xib */; };
 		A91C7FF61A4F71A10055E57A /* SegueDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C7FF51A4F71A10055E57A /* SegueDemoTests.swift */; };
+		A91C80001A4F71F30055E57A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C7FFF1A4F71F30055E57A /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A91C7FEF1A4F71A00055E57A /* SegueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C7FF41A4F71A10055E57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A91C7FF51A4F71A10055E57A /* SegueDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDemoTests.swift; sourceTree = "<group>"; };
+		A91C7FFF1A4F71F30055E57A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				A91C7FDF1A4F71A00055E57A /* AppDelegate.swift */,
 				A91C7FE11A4F71A00055E57A /* ViewController.swift */,
+				A91C7FFF1A4F71F30055E57A /* SecondViewController.swift */,
 				A91C7FE31A4F71A00055E57A /* Main.storyboard */,
 				A91C7FE61A4F71A00055E57A /* Images.xcassets */,
 				A91C7FE81A4F71A00055E57A /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91C80001A4F71F30055E57A /* SecondViewController.swift in Sources */,
 				A91C7FE21A4F71A00055E57A /* ViewController.swift in Sources */,
 				A91C7FE01A4F71A00055E57A /* AppDelegate.swift in Sources */,
 			);
